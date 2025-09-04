@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_0250_data_gen_rap IMPLEMENTATION.
+CLASS ZCL_0250_DATA_GEN_RAP IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

@@ -1,0 +1,10 @@
+CLASS zbp_travel_r_0250_a DEFINITION
+                          PUBLIC
+                          ABSTRACT
+                          FINAL
+                          FOR BEHAVIOR OF ztravel_r_0250_a.
+
+ENDCLASS.
+
+CLASS zbp_travel_r_0250_a IMPLEMENTATION.
+ENDCLASS.
