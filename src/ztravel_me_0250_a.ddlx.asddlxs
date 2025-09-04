@@ -51,11 +51,14 @@ annotate entity ZTRAVEL_c_0250_A with
                     position: 30}],
    selectionField: [{ position: 10 }]}
 
+
+
   TravelID;
 
   @UI: {lineItem: [{ position: 20, importance: #HIGH }],
         identification: [{ position: 20 }],
         selectionField: [{ position: 20  }]}
+
   AgencyID;
 
 
@@ -89,6 +92,9 @@ annotate entity ZTRAVEL_c_0250_A with
          identification: [{ position: 90, label: 'Status'}],
          selectionField: [{ position: 40  }],
          textArrangement: #TEXT_ONLY }
+  OverallStatus;
+
+  @UI.hidden: true
   OverallStatusText;
 
   @UI.hidden: true
